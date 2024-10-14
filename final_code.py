@@ -757,6 +757,8 @@ def colour_drive(min_contour_area=50):#100
             # print(f"X: {cX}")
             # print(f"Y: {cY}")
             #print("ball detected")
+            
+            #_________Moition Controller____________
             if above==0 or intersection==1:
                 
                 rot_counter=0
@@ -916,6 +918,8 @@ def box_drive_2(min_contour_area=1000):#100
             # print(f"X: {cX}")
             # print(f"Y: {cY}")
             #print("ball detected")
+            #_________Moition Controller____________
+
             if above==0 or intersection==1:
                 
                 rot_counter=0
